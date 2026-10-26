@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.expo/
+android/
+ios/
+.idea/
+.vscode/
+.DS_Store
+# large / generated ML assets (see ai-pipeline/README.md)
+ai-pipeline/datasets/
+ai-pipeline/ml_pipeline/
+ai-pipeline/app_audio_assets/
+ai-pipeline/*.keras

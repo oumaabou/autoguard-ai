@@ -1,0 +1,183 @@
+[
+  {
+    "fault_type": "bearing_fault",
+    "title": "Bearing Fault",
+    "vehicle_context": "Wheel hub bearing, or a rotating accessory bearing (alternator, A/C compressor, power steering pump, water pump)",
+    "explanation": "A bearing lets a wheel or a spinning accessory part rotate smoothly with minimal friction. When it wears out or gets damaged, it starts grinding instead of spinning freely, which shows up acoustically as a rhythmic droning or whining noise that changes with speed or engine RPM.",
+    "causes": [
+      "Pothole or curb impact (wheel bearings take the car's full weight at that contact point)",
+      "Worn seal letting water, dirt, or road salt into the bearing",
+      "Normal wear over tens of thousands of miles",
+      "Low or degraded lubrication in accessory bearings"
+    ],
+    "symptoms": [
+      "Rhythmic humming or droning noise that gets louder with speed (wheel bearing)",
+      "Steering wheel vibration or looseness",
+      "Uneven tire wear compared to other tires",
+      "High-pitched whining or squealing that changes pitch with engine RPM (alternator/accessory bearing)",
+      "Dim headlights or dashboard lights, hard starting (if it's the alternator bearing affecting charging)"
+    ],
+    "urgency": "High",
+    "urgency_note": "A failed wheel bearing can seize or collapse without warning, which at highway speed can mean sudden loss of control. A seized accessory bearing can lock up and snap the serpentine belt, which then also kills power steering and engine cooling. Don't ignore this one.",
+    "typical_cost_low": 230,
+    "typical_cost_high": 650,
+    "cost_notes": "Wheel bearing: parts $80-250 + labor $150-400 per wheel (avg ~$350/wheel). Alternator bearing only: $150-380. Full alternator replacement (if bearing-only isn't offered): $350-900+.",
+    "questions_to_ask_mechanic": [
+      "Which specific bearing is being replaced - a wheel hub bearing, or an accessory bearing (alternator/A-C/power steering)?",
+      "Can you show me the worn part, or the play/roughness when you spin it by hand?",
+      "Is a bearing-only repair possible, or does the whole assembly need replacing?",
+      "Can I get an itemized quote (parts vs labor) before you start?"
+    ],
+    "sources": [
+      "https://www.identifix.com/blogs/8-symptoms-of-a-bad-wheel-bearing/",
+      "https://www.prioritytire.com/blog/bad-wheel-bearing",
+      "https://www.autonationmobileservice.com/i/blog/alternator-bearing-replacement-cost/"
+    ]
+  },
+  {
+    "fault_type": "bowed_rotor",
+    "title": "Bowed Rotor",
+    "vehicle_context": "Primary/consumer-relatable mapping: warped brake rotor. Alternate technical mapping: a bent/warped internal motor or crankshaft rotor (thermal warping), closer to the original industrial-motor meaning of this dataset label.",
+    "explanation": "PRIMARY (brake rotor): the flat metal disc a brake pad clamps onto has become unevenly worn or warped, usually from uneven heat, so it's no longer perfectly flat - you feel it as a pulsing brake pedal. ALTERNATE (motor/engine shaft): an internal rotating shaft (in an engine, alternator, or EV/hybrid traction motor) has physically bent slightly, often from being shut off very hot and restarted too soon, throwing the rotation off-balance.",
+    "causes": [
+      "(Brakes) Overheating from hard or prolonged braking, e.g. long downhill descents",
+      "(Brakes) Lug nuts torqued unevenly or too tight",
+      "(Brakes) Normal age/wear",
+      "(Motor/engine) Shutting down a hot engine/motor and restarting too soon, causing uneven thermal contraction",
+      "(Motor/engine) Bearing or thrust-surface wear allowing the shaft to run off-center"
+    ],
+    "symptoms": [
+      "Pulsating brake pedal when braking",
+      "Steering wheel vibration specifically when braking",
+      "Rhythmic noise or vibration that scales with braking pressure",
+      "(Motor/engine variant) Knocking or rattling noise, general vibration, possible dashboard warning light"
+    ],
+    "urgency": "Medium-High",
+    "urgency_note": "Warped brake rotors reduce braking consistency and stopping distance - worth addressing promptly but rarely an immediate breakdown risk. A genuinely bowed engine/motor shaft is more serious and usually needs dealer/specialist diagnosis, since it can indicate deeper internal damage.",
+    "typical_cost_low": 15,
+    "typical_cost_high": 600,
+    "cost_notes": "Brake rotor resurfacing: $15-35 per rotor. Full rotor replacement: $300-600 (or $200-500 for a full brake job incl. pads). Motor/engine shaft issues are not standardized - cost depends entirely on the specific component and usually requires a dealer/specialist quote; can range from a few hundred dollars to a major repair.",
+    "questions_to_ask_mechanic": [
+      "Is this actually a brake rotor issue, or something inside the engine/motor - the terminology sounds similar but they're very different repairs",
+      "Can the rotor be resurfaced instead of replaced?",
+      "If this is a motor/shaft issue, can I see the diagnostic reading or code that points to it?"
+    ],
+    "sources": [
+      "https://www.carparts.com/blog/warped-rotor-symptoms-plus-faq/",
+      "https://www.autonationmobileservice.com/i/blog/warped-rotor/",
+      "https://thedieseldudes.com/blogs/news/gm-3-0l-duramax-thrust-bearing-failure-what-to-know"
+    ]
+  },
+  {
+    "fault_type": "broken_rotor_bars",
+    "title": "Broken Rotor Bars",
+    "vehicle_context": "EV/hybrid traction motor, or the internal windings of a starter motor / alternator armature",
+    "explanation": "Inside an electric motor's spinning rotor are metal bars/windings that carry current and generate the motor's rotating force. If one or more of these cracks or breaks, the motor can't produce smooth, even power anymore - it shows up as pulsation, extra vibration, and reduced efficiency.",
+    "causes": [
+      "Repeated overload or sudden load changes, especially during startup",
+      "Prolonged high operating temperature",
+      "Manufacturing defects or weak joints (less common, but does happen)",
+      "General age and accumulated thermal cycling stress"
+    ],
+    "symptoms": [
+      "Increased vibration and unusual noise during operation",
+      "Motor running hotter than normal",
+      "Reduced torque or a decline in efficiency (for an EV, this can feel like reduced range or sluggish acceleration)",
+      "Torque pulsations or speed fluctuations under load"
+    ],
+    "urgency": "High",
+    "urgency_note": "If this is genuinely the EV/hybrid traction motor, it's a major drivetrain component - get it checked by a certified high-voltage technician, and check whether it's still under warranty before paying out of pocket. If it's a starter or alternator armature, it's less catastrophic but still needs addressing.",
+    "typical_cost_low": 3000,
+    "typical_cost_high": 8000,
+    "cost_notes": "EV/hybrid traction motor replacement: roughly $3,000-$8,000+ depending on vehicle (Tesla-specific quotes run $5,000-$7,000), often warranty-covered on newer EVs. This is NOT a part most independent shops handle - it typically requires a dealer or certified EV specialist. Starter/alternator armature repair is far cheaper (comparable to standard alternator costs, ~$350-900) but rarer to diagnose this specifically without lab equipment.",
+    "questions_to_ask_mechanic": [
+      "Is my vehicle's motor/drivetrain still under manufacturer or powertrain warranty?",
+      "What diagnostic evidence (current signature analysis, vibration data) points to broken rotor bars specifically, versus a simpler fault?",
+      "Is a certified high-voltage/EV technician handling this, given the safety requirements?"
+    ],
+    "sources": [
+      "https://motorsandpump.com/ac-motor-rotor-bar-failure/",
+      "https://www.blazingev.com/what-is-the-cost-to-replace-an-ev-motor/",
+      "https://www.daze.eu/en/blog/electric-car-motor-price-real-costs-and-complete-guide-to-replacement"
+    ]
+  },
+  {
+    "fault_type": "healthy",
+    "title": "Healthy / No Fault Detected",
+    "vehicle_context": "General",
+    "explanation": "The recorded acoustic pattern matches normal, healthy operation for the fault types this app screens for. This is a targeted acoustic screen, not a full mechanical inspection - it doesn't rule out issues outside the specific fault categories the model was trained on.",
+    "causes": [],
+    "symptoms": [],
+    "urgency": "None",
+    "urgency_note": "No action needed based on this reading. Continue with your vehicle's normal maintenance schedule.",
+    "typical_cost_low": 0,
+    "typical_cost_high": 0,
+    "cost_notes": "N/A",
+    "questions_to_ask_mechanic": [],
+    "sources": []
+  },
+  {
+    "fault_type": "rotor_misalignment",
+    "title": "Rotor Misalignment",
+    "vehicle_context": "Belt-driven accessory pulley (alternator, A/C compressor, power steering pump) out of alignment with the serpentine belt",
+    "explanation": "One of the pulleys that the serpentine belt rides on isn't lined up quite right with the others, so the belt rubs or flexes sideways instead of running flat. This creates extra friction, noise, and accelerated wear on the belt and the component itself.",
+    "causes": [
+      "Worn or loose accessory mounting brackets",
+      "Improper installation after a previous repair (e.g. alternator or A/C compressor swap)",
+      "Worn-out belt tensioner or idler pulley letting things shift out of place"
+    ],
+    "symptoms": [
+      "Loud squealing noise from the front of the engine, especially on startup or turning",
+      "Visible belt slipping, fraying, or shedding material",
+      "Reduced power steering assist, weaker A/C, or inconsistent charging as a downstream effect"
+    ],
+    "urgency": "Medium",
+    "urgency_note": "Usually won't leave you stranded immediately, but it accelerates wear on the belt and whichever component is misaligned, and can escalate to a snapped belt (losing power steering and cooling) if ignored long enough.",
+    "typical_cost_low": 100,
+    "typical_cost_high": 500,
+    "cost_notes": "Realignment labor alone: $100-400. If a tensioner or idler pulley needs replacing too: $200-500+. A new belt itself: $90-250 (parts $15-80, labor $75-170).",
+    "questions_to_ask_mechanic": [
+      "Which pulley is out of alignment, and can you show me the belt wear pattern that indicates it?",
+      "Is this a simple realignment, or does a component (tensioner, idler pulley, bracket) need replacing?",
+      "Will you inspect the whole belt path, not just replace the belt, so this doesn't recur?"
+    ],
+    "sources": [
+      "https://psychoautos.com/how-to-fix-misaligned-serpentine-belt/",
+      "https://oards.com/serpentine-belt-symptoms-and-cost/",
+      "https://www.savemoreautomotive.com/blog/the-serpentine-belt-squeal-causes-and-average-replacement-costs/"
+    ]
+  },
+  {
+    "fault_type": "voltage_unbalance",
+    "title": "Voltage Unbalance",
+    "vehicle_context": "Charging system - alternator and/or its voltage regulator",
+    "explanation": "The alternator (and its voltage regulator) is supposed to deliver a steady, consistent voltage to charge the battery and run the electrical system. When the regulator fails, voltage swings up and down instead of staying steady, either overcharging or undercharging the system.",
+    "causes": [
+      "Failing voltage regulator (in most modern cars this is built into the alternator itself)",
+      "Worn alternator diodes or windings",
+      "Loose or corroded electrical connections at the battery or alternator"
+    ],
+    "symptoms": [
+      "Flickering or dimming headlights and interior lights, especially noticeable at night",
+      "Dashboard battery warning light",
+      "Engine stalling",
+      "Dead or frequently draining battery",
+      "In severe cases, voltage spikes damaging sensitive electronics"
+    ],
+    "urgency": "Medium-High",
+    "urgency_note": "Can leave you stranded with a dead battery or a stall, and sustained overcharging can damage other electrical components over time. Worth addressing before a road trip or in the near term generally.",
+    "typical_cost_low": 150,
+    "typical_cost_high": 1000,
+    "cost_notes": "Voltage regulator alone (if separate from the alternator): $150-500. Since most modern vehicles integrate the regulator into the alternator, a full alternator replacement is more common: parts $200-600, labor $200-400, total $400-1,000.",
+    "questions_to_ask_mechanic": [
+      "Can you confirm this is a voltage regulator issue with a multimeter reading (should be roughly 13.5-14.5V running), not just a guess?",
+      "Is the regulator separate or integrated into the alternator on my vehicle?",
+      "Is there a reputable rebuilt/remanufactured option, not just new OEM, to bring the cost down?"
+    ],
+    "sources": [
+      "https://www.carparts.com/blog/bad-voltage-regulator-symptoms-testing-replacement-cost-more/amp/",
+      "https://cartreatments.com/bad-voltage-regulator-symptoms-replacement-cost/",
+      "https://js-alternators.com/blogs/blog/alternator-voltage-regulator"
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+bearing_fault
+bowed_rotor
+broken_rotor_bars
+healthy
+rotor_misalignment
+voltage_unbalance
