@@ -106,4 +106,4 @@ Leave-one-recording-out evaluation, real phone-recorded test set, server-side to
 
 ## Author
 
-Oumalkaire Aboubakar  - <oumaabou17@gmail.com / www.linkedin.com/in/oumalkaire-aboubaker>. Licensed under MIT.
+Oumalkaire Aboubakar  - <oumaabou17@gmail.com / www.linkedin.com/in/oumalkaire-aboubaker >. Licensed under MIT.
